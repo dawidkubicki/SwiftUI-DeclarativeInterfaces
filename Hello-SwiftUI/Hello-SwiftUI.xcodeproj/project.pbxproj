@@ -11,6 +11,8 @@
 		12E7AA6A26068D6E001A28F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7AA6926068D6E001A28F3 /* ContentView.swift */; };
 		12E7AA6C26068D6E001A28F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E7AA6B26068D6E001A28F3 /* Assets.xcassets */; };
 		12E7AA6F26068D6E001A28F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E7AA6E26068D6E001A28F3 /* Preview Assets.xcassets */; };
+		12E7AA792606911B001A28F3 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7AA782606911B001A28F3 /* Hike.swift */; };
+		12E7AA7C260697FE001A28F3 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E7AA7B260697FE001A28F3 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		12E7AA6B26068D6E001A28F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E7AA6E26068D6E001A28F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12E7AA7026068D6E001A28F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E7AA782606911B001A28F3 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		12E7AA7B260697FE001A28F3 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		12E7AA6626068D6E001A28F3 /* Hello-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				12E7AA7726069110001A28F3 /* Model */,
 				12E7AA6726068D6E001A28F3 /* Hello_SwiftUIApp.swift */,
 				12E7AA6926068D6E001A28F3 /* ContentView.swift */,
+				12E7AA7B260697FE001A28F3 /* HikeDetail.swift */,
 				12E7AA6B26068D6E001A28F3 /* Assets.xcassets */,
 				12E7AA7026068D6E001A28F3 /* Info.plist */,
 				12E7AA6D26068D6E001A28F3 /* Preview Content */,
@@ -67,6 +73,14 @@
 				12E7AA6E26068D6E001A28F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12E7AA7726069110001A28F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12E7AA782606911B001A28F3 /* Hike.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E7AA792606911B001A28F3 /* Hike.swift in Sources */,
 				12E7AA6A26068D6E001A28F3 /* ContentView.swift in Sources */,
 				12E7AA6826068D6E001A28F3 /* Hello_SwiftUIApp.swift in Sources */,
+				12E7AA7C260697FE001A28F3 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
