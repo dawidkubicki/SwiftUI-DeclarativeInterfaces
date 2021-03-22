@@ -8,22 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let sessions = Session.all()
+    
     var body: some View {
+    
+        let chunkedSessions = sessions.chunked(into: 3)
         
-        List {
-            //rows
-            ForEach(0..<5) { _ in
-                
+        return List {
+            ForEach(0..<chunkedSessions.count) { index in
                 HStack {
-                    
-                    //Columns
-                    ForEach(0..<2) { _ in
-                        Image("1")
+                    ForEach(chunkedSessions[index], id: \.self) { session in
+                        Image(session.imageURL)
                             .resizable()
+                            .frame(width: 110, height: 110)
                             .scaledToFit()
                     }
                 }
-                
             }
         }
     
