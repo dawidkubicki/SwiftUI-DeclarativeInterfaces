@@ -18,6 +18,8 @@ struct AnotherExample: View {
             Button("Increment score") {
                 self.userSettings.score += 1
             }
+            
+            FancyScoreView(score: self.$userSettings.score)
         }
     }
 }

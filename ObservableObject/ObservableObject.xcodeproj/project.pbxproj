@@ -14,6 +14,7 @@
 		12F63B18260F362000E5AA34 /* FancyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F63B17260F362000E5AA34 /* FancyTimer.swift */; };
 		12F63B1B260F379F00E5AA34 /* AnotherExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F63B1A260F379F00E5AA34 /* AnotherExample.swift */; };
 		12F63B1E260F37D000E5AA34 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F63B1D260F37D000E5AA34 /* UserSettings.swift */; };
+		12F63B21260F39D100E5AA34 /* FancyScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F63B20260F39D100E5AA34 /* FancyScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		12F63B17260F362000E5AA34 /* FancyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyTimer.swift; sourceTree = "<group>"; };
 		12F63B1A260F379F00E5AA34 /* AnotherExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherExample.swift; sourceTree = "<group>"; };
 		12F63B1D260F37D000E5AA34 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		12F63B20260F39D100E5AA34 /* FancyScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				12F63B17260F362000E5AA34 /* FancyTimer.swift */,
 				12F63B1A260F379F00E5AA34 /* AnotherExample.swift */,
 				12F63B1D260F37D000E5AA34 /* UserSettings.swift */,
+				12F63B20260F39D100E5AA34 /* FancyScoreView.swift */,
 			);
 			path = ObservableObject;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				12F63B1B260F379F00E5AA34 /* AnotherExample.swift in Sources */,
 				12F63B0A260F359B00E5AA34 /* ContentView.swift in Sources */,
 				12F63B08260F359B00E5AA34 /* ObservableObjectApp.swift in Sources */,
+				12F63B21260F39D100E5AA34 /* FancyScoreView.swift in Sources */,
 				12F63B1E260F37D000E5AA34 /* UserSettings.swift in Sources */,
 				12F63B18260F362000E5AA34 /* FancyTimer.swift in Sources */,
 			);
