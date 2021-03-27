@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AnotherExample: View {
     
-    @ObservedObject var userSettings = UserSettings()
+    @EnvironmentObject var userSettings: UserSettings
     
     var body: some View {
         VStack {
@@ -19,13 +19,13 @@ struct AnotherExample: View {
                 self.userSettings.score += 1
             }
             
-            FancyScoreView(score: self.$userSettings.score)
+            FancyScoreView()
         }
     }
 }
 
 struct AnotherExample_Previews: PreviewProvider {
     static var previews: some View {
-        AnotherExample()
+        AnotherExample().environmentObject(UserSettings())
     }
 }

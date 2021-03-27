@@ -9,14 +9,14 @@ import SwiftUI
 
 struct FancyScoreView: View {
     
-    //Binding means that it will be send from outside
-    @Binding var score: Int
+    //Binding decorator means that it will be send from outside
+    @EnvironmentObject var userSettings: UserSettings
     
     var body: some View {
         VStack {
-            Text("0")
+            Text("\(self.userSettings.score)")
             Button("Increment score") {
-                
+                self.userSettings.score += 1
             } //:Button
             .padding()
             .background(Color.green)
@@ -28,6 +28,6 @@ struct FancyScoreView: View {
 
 struct FancyScoreView_Previews: PreviewProvider {
     static var previews: some View {
-        FancyScoreView(score: .constant(0))
+        FancyScoreView()
     }
 }

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ObservableObjectApp: App {
+    
+    let userSettings = UserSettings()
+    
     var body: some Scene {
         WindowGroup {
-            AnotherExample()
+            AnotherExample().environmentObject(userSettings)
         }
     }
 }
