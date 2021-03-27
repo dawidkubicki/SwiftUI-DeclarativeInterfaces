@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct AnotherExample: View {
+    
+    @ObservedObject var userSettings = UserSettings()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("\(self.userSettings.score)")
+                .font(.largeTitle)
+            Button("Increment score") {
+                self.userSettings.score += 1
+            }
+        }
     }
 }
 
