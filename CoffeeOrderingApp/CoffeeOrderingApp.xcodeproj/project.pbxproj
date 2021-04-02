@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12072F5D2617247C005D57FF /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12072F5C2617247C005D57FF /* CreateOrderResponse.swift */; };
 		126CABFA261702BB000EF8A4 /* CoffeeOrderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CABF9261702BB000EF8A4 /* CoffeeOrderingAppApp.swift */; };
 		126CABFC261702BB000EF8A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CABFB261702BB000EF8A4 /* ContentView.swift */; };
 		126CABFE261702BC000EF8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126CABFD261702BC000EF8A4 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12072F5C2617247C005D57FF /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 		126CABF6261702BB000EF8A4 /* CoffeeOrderingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrderingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		126CABF9261702BB000EF8A4 /* CoffeeOrderingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOrderingAppApp.swift; sourceTree = "<group>"; };
 		126CABFB261702BB000EF8A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				126CAC0A26170315000EF8A4 /* Coffee.swift */,
 				126CAC0E2617072D000EF8A4 /* Order.swift */,
+				12072F5C2617247C005D57FF /* CreateOrderResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				126CABFC261702BB000EF8A4 /* ContentView.swift in Sources */,
 				126CABFA261702BB000EF8A4 /* CoffeeOrderingAppApp.swift in Sources */,
 				126CAC0F2617072D000EF8A4 /* Order.swift in Sources */,
+				12072F5D2617247C005D57FF /* CreateOrderResponse.swift in Sources */,
 				126CAC1B261717D0000EF8A4 /* OrderListView.swift in Sources */,
 				126CAC172617146F000EF8A4 /* OrderListViewModel.swift in Sources */,
 				126CAC1326171154000EF8A4 /* Webservice.swift in Sources */,
