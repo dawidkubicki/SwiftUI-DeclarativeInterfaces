@@ -13,6 +13,7 @@
 		126CAC01261702BC000EF8A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126CAC00261702BC000EF8A4 /* Preview Assets.xcassets */; };
 		126CAC0B26170315000EF8A4 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CAC0A26170315000EF8A4 /* Coffee.swift */; };
 		126CAC0F2617072D000EF8A4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CAC0E2617072D000EF8A4 /* Order.swift */; };
+		126CAC1326171154000EF8A4 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CAC1226171154000EF8A4 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		126CAC02261702BC000EF8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		126CAC0A26170315000EF8A4 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		126CAC0E2617072D000EF8A4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		126CAC1226171154000EF8A4 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		126CABF8261702BB000EF8A4 /* CoffeeOrderingApp */ = {
 			isa = PBXGroup;
 			children = (
+				126CAC1126171148000EF8A4 /* Services */,
 				126CAC0926170302000EF8A4 /* Models */,
 				126CABF9261702BB000EF8A4 /* CoffeeOrderingAppApp.swift */,
 				126CABFB261702BB000EF8A4 /* ContentView.swift */,
@@ -81,6 +84,14 @@
 				126CAC0E2617072D000EF8A4 /* Order.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		126CAC1126171148000EF8A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				126CAC1226171154000EF8A4 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				126CABFC261702BB000EF8A4 /* ContentView.swift in Sources */,
 				126CABFA261702BB000EF8A4 /* CoffeeOrderingAppApp.swift in Sources */,
 				126CAC0F2617072D000EF8A4 /* Order.swift in Sources */,
+				126CAC1326171154000EF8A4 /* Webservice.swift in Sources */,
 				126CAC0B26170315000EF8A4 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
